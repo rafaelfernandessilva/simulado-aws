@@ -16,4 +16,8 @@ O endereço publicado aparecerá nessa mesma página. O arquivo .nojekyll permit
 
 ## Conteúdo
 
-As questões e explicações foram fornecidas pelo usuário. A pontuação usa os gabaritos importados. Observações técnicas identificadas aparecem na revisão de cada questão.
+As questões foram fornecidas pelo usuário. Os gabaritos, as explicações e as notas das alternativas foram revisados com a documentação oficial da AWS entre 25 e 27 de novembro de 2026. As referências aparecem na revisão de cada questão ao finalizar o simulado.
+
+O histórico das correções e as fontes de todas as 361 questões estão em [AUDITORIA-QUESTOES.md](AUDITORIA-QUESTOES.md).
+
+O link do topo aponta para https://simulado-saa.rafael.bhz.br/. Todos os links externos usam HTTPS; os recursos locais usam caminhos relativos ao endereço da página.
