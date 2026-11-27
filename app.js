@@ -4,8 +4,6 @@ const domainLabels = {
   Resiliência: "Resiliência",
   Desempenho: "Alto desempenho",
   Custo: "Otimização de custos",
-  Operação: "Excelência operacional",
-  "Não informado": "Domínio não informado no arquivo",
 };
 const domainSelect = byId("domain");
 const sourceGroupSelect = byId("source-group");
@@ -197,7 +195,7 @@ function renderResults() {
       item.append(link);
       sources.append(item);
     });
-    details.append(options, create("h4", "Explicação geral do arquivo"),
+    details.append(options, create("h4", "Explicação geral"),
       create("p", question.explanation, "source-explanation"), sources);
     return details;
   });
@@ -212,7 +210,7 @@ function renderResults() {
       : "Abrir todas as explicações";
   }
   detailsList.forEach(details => details.addEventListener("toggle", updateReviewButton));
-  reviewHead.append(create("h3", "Gabarito do arquivo"), toggleReview);
+  reviewHead.append(create("h3", "Gabarito comentado"), toggleReview);
   review.append(reviewHead, ...detailsList);
   panel.append(header, button("Novo simulado", () => {
     show("setup");
